@@ -10,7 +10,7 @@ public class Util {
 
     public static Connection getConnection() {
         try {
-            Class.forName("com.mysql.jdbc.Driver");
+            Class.forName("com.mysql.cj.jdbc.Driver");
             connection = DriverManager.getConnection(URL,USER,PASSWORD);
         } catch (ClassNotFoundException e) {
             throw new RuntimeException(e);
