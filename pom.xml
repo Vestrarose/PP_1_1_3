@@ -47,6 +47,13 @@
             <artifactId>hibernate-core</artifactId>
             <version>5.6.3.Final</version>
         </dependency>
-     </dependencies>
 
+<!-- hibernate c3p0 -->
+        <dependency>
+            <groupId>org.hibernate</groupId>
+            <artifactId>hibernate-c3p0</artifactId>
+            <version>5.6.3.Final</version>
+        </dependency>
+
+     </dependencies>
 </project>
